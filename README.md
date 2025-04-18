@@ -20,14 +20,14 @@
 <h2 align="center">CHI EA 2025</h2>
 
   <p align="center">
-    This is the accompanying repository to the paper "Privacy: Exploring Privacy Protection in Vision-Language Model Interactions on Smart Glasses". The dataset will be released once the manuscript is published. For any questions, please feel free to contact the first author.
+    This is the accompanying repository to the paper "Through the Lens of Privacy: Exploring Privacy Protection in Vision-Language Model Interactions on Smart Glasses". The dataset will be released once the manuscript is published. For any questions, please feel free to contact the first author.
   </p>
 
   <p align="center">
   <h2 align="center">Release plan</h2>
     <div style="display: flex; justify-content: center; margin: 0 auto; max-width: 600px;">
     <ul style="list-style-type: none; padding-left: 0; text-align: left;">
-      <li>⬜ The whole dataset (including subset A & B)</li>
+      <li>✅ <a href="dataset/">The dataset (Subset A & B)</a></li>
       <li>⬜ The code of the prototype system</li>
     </ul>
   </div>
