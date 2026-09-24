@@ -1,0 +1,9 @@
+# Xcode per-user state
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Your Apple Enterprise API license is tied to your team; don't publish it
+Enterprise.license

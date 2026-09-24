@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSEnterpriseMCAMUsageDescription</key>
+	<string>Main Camera Access request.</string>
+	<key>NSMainCameraUsageDescription</key>
+	<string>Main Camera Access request.</string>
+	<key>NSHandsTrackingUsageDescription</key>
+	<string>We need hand tracking to enable hand panel.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationPreferredDefaultSceneSessionRole</key>
+		<string>UIWindowSceneSessionRoleApplication</string>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UISceneSessionRoleImmersiveSpaceApplication</key>
+			<array>
+				<dict>
+					<key>UISceneInitialImmersionStyle</key>
+					<string>UIImmersionStyleProgressive</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

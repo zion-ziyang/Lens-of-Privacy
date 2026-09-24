@@ -1,0 +1,29 @@
+//
+//  AVAudioSession+hasAuthorization.swift
+//  PrivacyLens
+//
+//  Created by Zion on 12/31/24.
+//
+
+import Speech
+
+extension SFSpeechRecognizer {
+    static func hasAuthorizationToRecognize() async -> Bool {
+        await withCheckedContinuation { continuation in
+            requestAuthorization { status in
+                continuation.resume(returning: status == .authorized)
+            }
+        }
+    }
+}
+
+extension AVAudioSession {
+    func hasPermissionToRecord() async -> Bool {
+        await withCheckedContinuation { continuation in
+            AVAudioApplication.requestRecordPermission { authorized in
+                continuation.resume(returning: authorized)
+            }
+        }
+    }
+}
+
